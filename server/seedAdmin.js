@@ -4,8 +4,8 @@ const bcrypt = require('bcryptjs');
 const User = require('./models/User');
 
 const MONGO_URI = process.env.MONGO_URI;
-const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'admin@example.com';
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin123';
+const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'admin@urbancode.in';
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin123admin';
 
 const seedAdmin = async () => {
   try {
